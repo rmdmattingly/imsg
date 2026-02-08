@@ -14,6 +14,7 @@ struct CommandRouter {
       HistoryCommand.spec,
       WatchCommand.spec,
       SendCommand.spec,
+      TapbackCommand.spec,
     ]
     let descriptor = CommandDescriptor(
       name: rootName,
